@@ -1,0 +1,7 @@
+(library
+ (name unicode_zawgyi_converter)
+ (public_name unicode-zawgyi-converter)
+ (libraries Str re2)
+ (flags (:standard -open StdLabels)))
+
+(include_subdirs unqualified)
